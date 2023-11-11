@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chèn Văn Bản vào Hình Ảnh</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @font-face {
+            font-family: "Helvetlns";
+            src: url("HELVET.ttf");
+        }
+    </style>
+    <link rel="preload" href="HELVET.ttf" as="font" type="font/ttf" crossorigin>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <input type="text" id="inputText" value="LUU TRI">
+    <button onclick="generateImage()" id="submit">Tạo ảnh mới</button>
+    <img id="outputImage" alt="Ảnh kết quả">
+</body>
+
+</html>
